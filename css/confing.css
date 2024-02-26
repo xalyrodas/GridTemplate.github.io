@@ -1,0 +1,291 @@
+.PapiSaurio{
+    width: 100%;
+    height: 50px;
+    gap: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.neneSaurio{
+    
+    font-size: 30px;
+}
+
+.sectionSaurio{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.menuSaurio{
+    width: 100%;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.mainSaurio{
+width: 800px;
+height: 500px;
+border: 2px solid black;
+border-radius: 5px;
+margin: auto;
+margin-top: 20px;
+padding: 20px;
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 100%;
+}
+.divSaurio1{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+border: 2px solid black;
+
+}
+.cSaurio1{
+    border:2px solid black ;
+    
+}
+.divSaurio2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 2px solid black;
+    
+    }
+.cSaurio2-0{
+   border:2px solid black ;
+   grid-row-start: 1;
+   grid-row-end: 3; 
+        
+ }
+
+.cSaurio2{
+    border:2px solid black ;
+    
+}
+.divSaurio3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 2px solid black;
+    
+    }
+.cSaurio3{
+    border:2px solid black ;
+        
+    }
+.divSaurio4 {
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 2px solid black; 
+    }
+.cSaurio4-0 {
+    border: 2px solid black;
+    }
+.cSaurio4-1 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    }
+.cSaurio4-2 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    }
+.cSaurio4-3 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    }
+.divSaurio5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    border: 1px solid black; 
+    }
+.cSaurio5 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    }
+.cSaurio5-1 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    }
+    
+.cSaurio5-2 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    }
+    
+.cSaurio5-3 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 3;
+    grid-column-end: 5; 
+    }
+    
+.cSaurio5-4 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 5;
+    grid-column-end: 7; 
+    }
+.divSaurio6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border: 1px solid black;
+    }
+.cSaurio6-1 {
+    border: 2px solid black;
+    }
+    
+.cSaurio6-2 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    }
+.cSaurio6-3 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    }    
+.divSaurio-7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border: 2px solid black;
+    }
+.cSaurio-7 {
+    border: 2px solid black;
+    }
+    
+.cSaurio7-1 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    }
+.cSaurio7-2 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    }
+.cSaurio7-3 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    
+    }
+.divsaurio8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    border: 2px solid black;
+    }
+    
+.cSaurio8 {
+    border: 2px solid black;
+    }
+
+.cSaurio8-1 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    }
+.cSaurio8-2 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    }
+.cSaurio8-3 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    }
+.cSaurio8-4{
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    }
+.cSaurio8-5 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    }
+.cSaurio8-6 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    }    
+.divSaurio9 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border: 2px solid black;
+    }
+    
+.cSaurio9 {
+    border: 2px solid black;
+    }
+.cSaurio9-1 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    }
+.cSaurio9-2 {
+    display: grid;
+    border: 2px solid black;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    }
